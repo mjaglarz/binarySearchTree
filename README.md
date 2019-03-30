@@ -6,7 +6,7 @@ Implementation of Binary Search Tree in C++
 ## Operations:
 - insertion 
 - deletion
-- search (returning a pointer to node)
+- search (returning a pointer to a node)
 - find (iterative and recursive)
 - minimum/maximum value in tree
 - depth
