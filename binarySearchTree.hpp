@@ -108,7 +108,6 @@ typename BinarySearchTree<T>::Node* BinarySearchTree<T>::remove(Node* root, cons
       if(temp != nullptr){
         root->right->parent = root->parent;
       }
-
       delete root;
       size_--;
       return temp;
@@ -117,7 +116,6 @@ typename BinarySearchTree<T>::Node* BinarySearchTree<T>::remove(Node* root, cons
       if(temp != nullptr){
         root->left->parent = root->parent;
       }
-
       delete root;
       size_--;
       return temp;
