@@ -8,7 +8,7 @@ Implementation of Binary Search Tree in C++
 - deletion
 - search (returning a pointer to a node)
 - find (iterative and recursive)
-- minimum/maximum value in tree
+- minimum/maximum value in the tree
 - depth
 - print (inorder, preorder, postorder and with overloaded output operator)
 - size/isEmpty
