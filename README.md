@@ -1,2 +1,15 @@
-# binarySearchTree
 Implementation of Binary Search Tree in C++
+===========================================
+* on templates
+* with copy/move constructors and assignment operators
+
+## Operations:
+- insertion 
+- deletion
+- search (returning a pointer to node)
+- find (iterative and recursive)
+- minimum/maximum value in tree
+- depth
+- print (inorder, preorder, postorder and with overloaded output operator)
+- size/isEmpty
+- auxiliary functions to copy nodes, delete nodes and swap roots
