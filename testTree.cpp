@@ -27,7 +27,7 @@ int main(int argc, char* argv[]){
 
     bst3 = bst;
 
-    cout << "INORDER: ";
+    cout << "BST1:\nINORDER: ";
     bst.printInorder();
     cout << endl;
 
@@ -44,11 +44,11 @@ int main(int argc, char* argv[]){
     cout << "MAXIMUM: " << bst.maximum() << endl;
     cout << "DEPTH: " << bst.depth() << endl;
 
-    cout << "BST2: ";
+    cout << "\nBST2: ";
     cout << bst2;
     cout << "SIZE: " << bst2.size() << endl;
 
-    cout << "BST3: ";
+    cout << "\nBST3: ";
     cout << bst3;
     cout << "SIZE: " << bst3.size() << endl;
   }catch(std::exception const &e){
