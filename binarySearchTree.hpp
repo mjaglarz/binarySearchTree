@@ -124,6 +124,7 @@ typename BinarySearchTree<T>::Node* BinarySearchTree<T>::remove(Node* root, cons
     root->key = temp->key;
     root->right = remove(root->right, temp->key);
   }
+
   return root;
 }
 
@@ -312,6 +313,7 @@ const BinarySearchTree<T>& BinarySearchTree<T>::operator=(const BinarySearchTree
     root_ = nullptr;
     copyTree(tree.root_);
   }
+  
   return *this;
 }
 
