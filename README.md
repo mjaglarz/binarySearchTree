@@ -12,4 +12,4 @@ Implementation of Binary Search Tree in C++
 - depth
 - print (inorder, preorder, postorder and with overloaded output operator)
 - size/isEmpty
-- auxiliary functions to copy nodes, delete nodes and swap roots
+- auxiliary functions to copy nodes, delete nodes, swap roots and find parent of a node
